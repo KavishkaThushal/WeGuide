@@ -1,0 +1,120 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(218, 224, 230, 0.9);
+  height: 50px;
+}
+.logo {
+  color: #333333;
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.logo .icon {
+  font-size: 25px;
+  color: #f37f13;
+  transform: translateY(5px);
+}
+.logo span {
+  color: #f37f13;
+  font-size: 20px;
+}
+.toggleNavbar .icon {
+  font-size: 25px;
+  color: #f37f13;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 1rem;
+    top: -500rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.9);
+    transition: 0.5s ease-in-out;
+  }
+  .activeNavbar {
+    top: 7rem;
+  }
+  .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .navItem {
+    padding: 0.5rem 0;
+  }
+  .navLink {
+    color: #333333;
+    font-family: "poppins";
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .navLink:hover {
+    color: #f37f13;
+  }
+  .navItem .btn {
+    margin-top: 1rem;
+    font-family: "poppins";
+    font-weight: 300;
+    color: white;
+  }
+
+  .closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: #f37f13;
+  }
+
+  .closeNavbar:hover {
+    color: #f39913;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .toggleNavbar,
+  .closeNavbar {
+    display: none;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .navbar .navLists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .navItem .navLink {
+    color: #333333;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .navItem .navLink:hover {
+    color: #f37f13;
+  }
+
+  .navItem .btn {
+    margin-left: 1rem;
+    color: white;
+    font-weight: 500;
+  }
+}
