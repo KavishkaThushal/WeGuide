@@ -1,0 +1,123 @@
+.Hero {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+.tour-texts {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+.tour-text {
+  font-size: 3.3rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+/* .heroText h1 {
+  font-size: 75px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  text-align: center;
+} */
+.tour-texts .herodes {
+  font-size: 1rem;
+  color: white;
+  width: 100%;
+  padding-left: 35px;
+}
+.maintitle h2 {
+  text-align: center;
+  margin: 40px 0 0 0;
+  color: var(--primary-color);
+}
+.maintitle p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+}
+.tour__title {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+/* .card {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: 50px 20px;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.top {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.top h4 {
+  display: flex;
+  align-items: center;
+}
+.cardicon {
+  color: #f37f13;
+  font-size: 1.3rem;
+}
+.card h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 5%;
+  font-weight: 500;
+  font-family: "poppins";
+}
+.card button {
+  font-family: "poppins";
+  color: white;
+  font-weight: 500;
+}
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+.cardFooter h5 {
+  font-size: 1rem;
+} */
+
+.popular .title {
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 5px;
+}
+
+.popular p {
+  text-align: left;
+  font-weight: 500;
+}

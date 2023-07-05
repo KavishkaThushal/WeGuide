@@ -1,0 +1,53 @@
+.footer {
+  background: #f6a84f;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-family: "poppins", sans-serif;
+}
+
+.logo-title {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: white;
+}
+.logo-footer .logo-title span {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+.logo-footer p {
+  font-size: 0.8rem;
+  font-family: "poppins", sans-serif;
+}
+
+.social__links span a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.footer__link-title {
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer__quick-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+.footer__quick-links li {
+  background: #f6a84f;
+  font-size: 0.9rem;
+  color: black;
+}
+.copyright {
+  color: var(--text-color);
+}
+.right-border {
+  border-right: 2px solid white;
+}

@@ -1,0 +1,117 @@
+.NavBar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.8);
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(146, 147, 148, 0.9);
+  height: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo h1 {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: black;
+}
+.logo span {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+.logoIcon {
+  font-size: 30px;
+  color: var(--primary-color);
+  transform: translateY(5px);
+}
+.menu {
+  margin-bottom: 0;
+}
+.nav__item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.nav__item a:hover {
+  color: var(--primary-color);
+}
+
+.nav__item a .active__link {
+  color: inherit;
+}
+.toggleNavbar,
+.closeNavbar {
+  display: none;
+}
+/* .mobile__menu {
+  font-size: 1.3rem;
+  color: var(--heading-color);
+  display: none;
+} */
+@media screen and (max-width: 768px) {
+  .navBar {
+    position: absolute;
+    background-color: rgba(255, 255, 255);
+    height: max-content;
+    width: 60%;
+    border-radius: 1rem;
+    padding: 1rem;
+    top: -500rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.9);
+    transition: 0.5s ease-in-out;
+  }
+  .activeNavbar {
+    top: 7rem;
+  }
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .nav__item {
+    padding: 0.5rem 0;
+  }
+  .nav__item a {
+    color: #333333;
+    font-family: "poppins";
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .nav__item a:hover {
+    color: #f37f13;
+  }
+  .primary__btn {
+    font-family: "poppins";
+    font-weight: 300;
+    color: white;
+  }
+
+  .closeNavbar {
+    display: flex;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.2rem;
+    color: var(--primary-color);
+  }
+  .toggleNavbar {
+    display: contents;
+    color: var(--primary-color);
+  }
+  .closeNavbar:hover {
+    color: white;
+    background: var(--primary-color);
+  }
+}

@@ -1,0 +1,106 @@
+.custom-card {
+  height: 450px;
+  background: #d9d9d9;
+  width: 250px;
+  position: relative;
+  display: flex;
+  margin-bottom: 20%;
+  padding: 10%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour__card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.crew__img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -10%;
+  left: 30%;
+}
+.crew__img img {
+  border-radius: 30%;
+}
+.name {
+  /* position: absolute; */
+  margin-top: 10%;
+  font-size: 1.3rem;
+  font-family: "poppins", sans-serif;
+}
+.box {
+  /* position: absolute; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 35%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.box-left {
+  background: var(--secondary-color);
+  padding: 10%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-left h5,
+.box-right h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+}
+.box-left h6,
+.box-right h6 {
+  font-size: 0.9rem;
+  margin-top: 10%;
+  text-align: center;
+}
+.box-right {
+  background: white;
+  width: 50%;
+  height: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mail {
+  /* position: absolute; */
+  bottom: 7%;
+  left: 12%;
+  background: white;
+  width: max-content;
+  padding: 3% 5% 2% 5%;
+  border-radius: 30px;
+}
+.mail h5,
+.mail a {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+.hire-me {
+  background: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 2rem;
+}
+.hire-me:hover {
+  background: var(--secondary-color);
+}

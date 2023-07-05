@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Nav from "../Navbar/Nav";
 import Router from "../../router/Router";
 import Footer from "../Footer/Footer";
 
 function Layout() {
   return (
     <>
-      <Navbar />
+      <Nav />
       <Router />
       <Footer />
     </>
