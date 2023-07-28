@@ -1,0 +1,17 @@
+.main {
+  margin: 3% 0;
+}
+.main h1 {
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+}
+.main p {
+  font-size: 1.3rem;
+}
+.popular-section {
+  width: 60%;
+  margin: 1% auto;
+}
+.ourcrew {
+  margin: 6% auto 7% auto;
+}

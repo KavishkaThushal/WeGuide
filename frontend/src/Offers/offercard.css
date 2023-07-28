@@ -1,0 +1,50 @@
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+.cardFooter h5 {
+  font-size: 1rem;
+}
+.top {
+  display: flex;
+  padding: 10px 5px;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.card h4 {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 10%;
+}
+.cardicon {
+  color: #f37f13;
+  font-size: 0.9rem;
+}
+.sale {
+  font-family: "Lobster", cursive;
+  color: red;
+  position: absolute;
+  bottom: 2.5rem;
+  font-size: 0.9rem;
+}
+.card-top h5 {
+  font-size: 0.9rem;
+}
+.offer-price {
+  color: black;
+  font-family: "poppins", sans-serif;
+}
+.btn-custom {
+  padding: 0.4rem 1.3rem;
+  background-color: var(--primary-color);
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}

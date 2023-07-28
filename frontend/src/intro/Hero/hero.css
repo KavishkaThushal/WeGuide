@@ -1,0 +1,133 @@
+.featured-hero {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.featured-hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+.featured-text {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.featured-title {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  font-family: "poppins", sans-serif;
+}
+.featured-text p {
+  font-family: var(--font-name);
+  font-size: 0.8rem;
+  width: 50%;
+  color: white;
+  background: rgb(255, 255, 255, 0.4);
+  line-height: 1.3rem;
+  text-align: justify;
+  margin-top: 1%;
+  margin-left: 8%;
+  padding: 30px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 1170px) {
+  .featured-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  .featured-text h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    font-family: "poppins", sans-serif;
+  }
+  .featured-text p {
+    font-family: var(--font-name);
+    font-size: 1.3rem;
+    width: 45%;
+    color: white;
+    background: rgb(255, 255, 255, 0.4);
+    line-height: 2rem;
+    text-align: justify;
+    margin-left: 27%;
+    padding: 30px;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .featured-text {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+  .featured-text h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    font-family: "poppins", sans-serif;
+  }
+  .featured-text p {
+    font-family: var(--font-name);
+    font-size: 1.3rem;
+    width: 50%;
+    color: white;
+    background: rgb(255, 255, 255, 0.4);
+    line-height: 2rem;
+    text-align: justify;
+    margin-left: 27%;
+    padding: 30px;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .featured-hero {
+    width: 980px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .featured-hero img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+  }
+  .featured-text {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+  }
+  .featured-text h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    font-family: "poppins", sans-serif;
+  }
+  .featured-text p {
+    font-family: var(--font-name);
+    font-size: 1.3rem;
+    width: 50%;
+    color: white;
+    background: rgb(255, 255, 255, 0.4);
+    line-height: 2rem;
+    text-align: justify;
+    margin-left: 27%;
+    padding: 30px;
+    border-radius: 20px;
+  }
+}

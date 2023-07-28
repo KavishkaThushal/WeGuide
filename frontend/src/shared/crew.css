@@ -1,0 +1,118 @@
+.custom-card {
+  height: 450px;
+  background: #d9d9d9;
+  width: 280px;
+  position: relative;
+  display: flex;
+  margin-bottom: 20%;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tour__card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.crew__img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -10%;
+  left: 30%;
+}
+.crew__img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name {
+  /* position: absolute; */
+  margin-top: 15%;
+  font-size: 1.3rem;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+.box {
+  /* position: absolute; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 35%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.box-left {
+  background: var(--secondary-color);
+  padding: 10%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-left h5,
+.box-right h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+}
+.box-left h6,
+.box-right h6 {
+  font-size: 0.9rem;
+  margin-top: 10%;
+  text-align: center;
+}
+.box-right {
+  background: white;
+  width: 50%;
+  height: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mail {
+  /* position: absolute; */
+
+  background: white;
+  width: 270px;
+  padding: 5px;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail h5,
+.mail a {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--primary-color);
+}
+.hire-me {
+  background: var(--primary-color);
+
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 130px;
+}
+.hire-me a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+}
+.hire-me:hover {
+  background: var(--secondary-color);
+}

@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;300;500&family=Roboto:wght@100;300;400;900&display=swap");
+* {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-family: "poppins", sans-serif;
+}
+.Hero {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.Hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+.heroText {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 600;
+
+  letter-spacing: 0.3rem;
+}
+.heroText .herodes {
+  font-size: 1rem;
+  width: 75%;
+  color: white;
+}
+.offer-head {
+  margin: 5% auto;
+}
+.offer-head .title {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 5px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+.offer-head .sub-title {
+  font-size: 0.9rem;
+}
+/* .cardpack {
+  max-width: 70%;
+  margin: 70px auto;
+}
+.cardpack .title {
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 5px;
+}
+
+.cardpack p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.cards {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: 50px 20px;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.top {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.top h4 {
+  display: flex;
+  align-items: center;
+}
+.cardicon {
+  color: #f37f13;
+  font-size: 1.3rem;
+}
+.card h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 5%;
+  font-weight: 500;
+  font-family: "poppins";
+}
+.card button {
+  font-family: "poppins";
+  color: white;
+  font-weight: 500;
+}
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+.cardFooter h5 {
+  font-size: 1rem;
+}
+.sale {
+  font-family: "Lobster", cursive;
+  color: red;
+  position: absolute;
+  bottom: 2.9rem;
+  font-size: 1.3rem;
+} */
+
+.popular {
+  max-width: 80%;
+  margin: 70px auto;
+}
+.popular .title {
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 5px;
+}
+
+.popular p {
+  text-align: left;
+  font-weight: 500;
+}
+.offer-container {
+  width: 60%;
+  margin: 0 auto 6% auto;
+}
+.whoweare {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 7% 0;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-right: 100rem solid transparent;
+
+  border-bottom: 60rem solid #fce5ca;
+}
+.img1,
+.img2 {
+  position: absolute;
+  border-radius: 16px;
+  height: 335px;
+  width: 310px;
+  z-index: 1000;
+}
+.img1 {
+  top: 16%;
+  left: 12%;
+  filter: opacity(0.5);
+}
+.img2 {
+  top: 40%;
+  left: 23%;
+}
+.sec {
+  position: absolute;
+  left: 38%;
+  top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec h1 {
+  font-size: 2rem;
+  font-family: "poppins", sans-serif;
+  letter-spacing: 1rem;
+  font-weight: 600;
+  color: #546376;
+}
+.sec P {
+  background: #f8b972;
+  border-radius: 13px;
+  width: 50%;
+  padding: 3%;
+  font-size: 0.9rem;
+  font-family: "roboto", sans-serif;
+  text-align: justify;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 4%;
+  box-shadow: rgba(4, 3, 10, 0.3) 0px 6px 6px 0px;
+}
+.sec button {
+  width: max-content;
+  background: #d9d9d9;
+  text-align: center;
+  border: none;
+  padding: 1% 7%;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "roboto", sans-serif;
+  color: var(--heading-color);
+  box-shadow: rgba(4, 3, 10, 0.3) 0px 10px 50px 0px;
+}
+.sec-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-right: 11%;
+}
+.item {
+  background: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  width: 100px;
+  border-radius: 30px 0 30px 0;
+  margin-right: 25%;
+  position: relative;
+  color: white;
+
+  box-shadow: rgba(4, 3, 10, 0.3) 0px 20px 20px 0px;
+}
+.item h5 {
+  position: absolute;
+  bottom: -60%;
+  left: 0%;
+  color: var(--heading-color);
+  font-family: "roboto", sans-serif;
+  font-size: 0.9rem;
+  width: 150%;
+}
+.offercard-sec {
+  width: 60%;
+  margin: 5% auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.offer-img1,
+.offer-img2 {
+  height: 500px;
+  width: 400px;
+  margin: 0 10%;
+  border-radius: 20px;
+  filter: brightness(70%);
+}
+.offer-img1 {
+  margin-top: 20%;
+}
+.div-img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.div-img1-body {
+  position: absolute;
+  top: 28%;
+  left: 8%;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div-img2-body {
+  position: absolute;
+  top: 15%;
+  left: 59%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offer-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+.div-img1-body p,
+.div-img2-body p {
+  font-size: 0.9rem;
+  color: var(--heading-color);
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  margin: 3% auto;
+}
+.div-img2-body button {
+  width: max-content;
+  border: none;
+  border-radius: 30px;
+  margin: 2% auto;
+  padding: 2% 7%;
+  background: #546376;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "roboto", sans-serif;
+  transition: 0.3s ease-in;
+}
+.div-img1-body button:hover {
+  background: var(--heading-color);
+}
+.div-img2-body button:hover {
+  background: var(--heading-color);
+}
+
+.div-img1-body button {
+  width: max-content;
+  border: none;
+  border-radius: 30px;
+  margin: 2% auto;
+  padding: 2% 7%;
+  background: var(--secondary-color);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "roboto", sans-serif;
+  transition: 0.3s ease-in;
+}
+
+.test-title {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 5px;
+  font-family: "poppins", sans-serif;
+
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+.testtimonial-container {
+  width: 60%;
+  margin: 3% auto;
+}
+@media screen and (max-width: 1170px) {
+  .heroText {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .heroText {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+  }
+  .heroText h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+  }
+  .heroText .herodes {
+    font-size: 1rem;
+    width: 75%;
+    color: white;
+  }
+}
+@media screen and (max-width: 980px) {
+  .Hero {
+    width: 980px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .Hero img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+  }
+  .heroText {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+}
