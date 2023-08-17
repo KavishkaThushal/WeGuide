@@ -1,0 +1,24 @@
+.thank__you span i {
+  font-size: 4rem;
+  color: green;
+}
+
+.thank__you h1 {
+  font-size: 3.6rem;
+  font-family: var(--subtitle-font-name);
+}
+.back_btn {
+  border: none;
+  border-radius: 6px;
+  background: var(--secondary-color);
+  width: 140px;
+  padding: 5px 10px;
+}
+.back_btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.back_btn:hover {
+  background: var(--heading-color);
+}

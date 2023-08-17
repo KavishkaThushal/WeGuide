@@ -55,7 +55,7 @@
   border-radius: 8px;
   border: none;
   padding: 6px;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 .auth__btn:hover {
   background: white;
