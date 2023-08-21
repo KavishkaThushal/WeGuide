@@ -1,8 +1,17 @@
 import React from "react";
 import { Card, Col } from "reactstrap";
 import van from "../assets/img/home.jpg";
+import western from "../assets/img/western.png";
+import south from "../assets/img/south.png";
+import central from "../assets/img/central.png";
+import Eastern from "../assets/img/Eastern.png";
+import Northern from "../assets/img/Northern.png";
+import NorthCen from "../assets/img/NorthCen.png";
+import wayamba from "../assets/img/wayamba.png";
+import sabare from "../assets/img/sabare.png";
+import uva from "../assets/img/uva.png";
 import "./tourcard.css";
-import south from "../assets/img/south.jpg";
+
 import temple from "../assets/img/daldamaligawa.jpg";
 import { Link } from "react-router-dom";
 
@@ -12,35 +21,35 @@ const categories = [
     title: "Southern  Province",
   },
   {
-    imgUrl: temple,
+    imgUrl: central,
     title: "Central  Province",
   },
   {
-    imgUrl: van,
+    imgUrl: uva,
     title: "Province of Uva",
   },
   {
-    imgUrl: van,
+    imgUrl: western,
     title: "Western  Province",
   },
   {
-    imgUrl: van,
+    imgUrl: Eastern,
     title: "Eastern  Province",
   },
   {
-    imgUrl: van,
+    imgUrl: Northern,
     title: "Northern  Province",
   },
   {
-    imgUrl: van,
+    imgUrl: NorthCen,
     title: "North Central  Province",
   },
   {
-    imgUrl: van,
+    imgUrl: sabare,
     title: "Province of Sabaragamuwa",
   },
   {
-    imgUrl: van,
+    imgUrl: wayamba,
     title: "Province of Wayamba",
   },
 ];

@@ -1,6 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import person from "../../assets/img/avatar5.jpg";
+import ava1 from "../../assets/img/avatar5.jpg";
+import ava2 from "../../assets/img/avatar2.jpg";
+import ava3 from "../../assets/img/avatar3.jpg";
+import ava4 from "../../assets/img/avatar1.jpg";
 
 function Testimonial() {
   const settings = {
@@ -36,7 +39,16 @@ function Testimonial() {
     <Slider {...settings} className="mt-4 mb-4">
       <div className="testtimonial py-4 px-3 test ">
         <div className="d-flex flex-column align-items-center gap-2 ">
-          <img src={person} className="w-25 h-25 rounded-2" alt="" />
+          <img
+            src={ava1}
+            style={{
+              height: 80,
+              width: 80,
+              borderRadius: 50,
+              objectFit: "cover",
+            }}
+            alt=""
+          />
           <div>
             <h6 className="mb-3 fs-5">-Liana Lawrance-</h6>
           </div>
@@ -48,7 +60,16 @@ function Testimonial() {
       </div>
       <div className="testtimonial py-4 px-3">
         <div className="d-flex flex-column align-items-center gap-2 ">
-          <img src={person} className="w-25 h-25 rounded-2" alt="" />
+          <img
+            src={ava2}
+            style={{
+              height: 80,
+              width: 80,
+              borderRadius: 50,
+              objectFit: "cover",
+            }}
+            alt=""
+          />
           <div>
             <h6 className="mb-3 fs-5">-Diana Johnson-</h6>
           </div>
@@ -61,7 +82,16 @@ function Testimonial() {
       </div>
       <div className="testtimonial py-4 px-3">
         <div className="d-flex flex-column align-items-center gap-2 ">
-          <img src={person} className="w-25 h-25 rounded-2" alt="" />
+          <img
+            src={ava3}
+            style={{
+              height: 80,
+              width: 80,
+              borderRadius: 50,
+              objectFit: "cover",
+            }}
+            alt=""
+          />
           <div>
             <h6 className="mb-3 fs-5">-Diana Johnson-</h6>
           </div>
@@ -74,7 +104,16 @@ function Testimonial() {
       </div>
       <div className="testtimonial py-4 px-3">
         <div className="d-flex flex-column align-items-center gap-2 ">
-          <img src={person} className="w-25 h-25 rounded-2" alt="" />
+          <img
+            src={ava4}
+            alt=""
+            style={{
+              height: 80,
+              width: 80,
+              borderRadius: 50,
+              objectFit: "cover",
+            }}
+          />
           <div>
             <h6 className="mb-3 fs-5">-Diana Johnson-</h6>
           </div>

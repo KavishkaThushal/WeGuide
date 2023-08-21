@@ -16,10 +16,6 @@ const nav__links = [
     display: "About",
   },
   {
-    path: "/contact",
-    display: "Contact",
-  },
-  {
     path: "/tour",
     display: "Tour",
   },
@@ -59,7 +55,7 @@ function Nav() {
             <div className="nav__right d-flex align-items-center gap-4">
               <div className="nav__btns d-flex align-items-center gap-4">
                 <Button className="btn secondary__btn">
-                  <Link to="/signin">Signin</Link>
+                  <Link to="/signin">Sign in</Link>
                 </Button>
                 <button className=" navbtn ">
                   <Link to="/register">Register</Link>

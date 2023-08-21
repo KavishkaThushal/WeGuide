@@ -6,13 +6,17 @@ import { AiFillStar } from "react-icons/ai";
 import { Container, Row, Col } from "reactstrap";
 import OfferCard from "../../Offers/OfferCard";
 import PopularCard from "../../popular/PopularCard";
+import boat from "../../assets/img/boat.jpg";
+import group from "../../assets/img/group.jpg";
 import sigiriya from "../../assets/img/home.jpg";
+import img1 from "../../assets/img/img1.png";
+import img2 from "../../assets/img/img2.png";
 import Testimonial from "../../components/testimonial/Testimonial";
 
 function Home() {
   return (
     <>
-      <div className="Hero">
+      <div className="Hero ">
         <img src={require("../../assets/img/home.jpg")} alt="HeroImg" />
         <div className="heroText">
           <h2 className="hero-title">
@@ -28,23 +32,7 @@ function Home() {
         </div>
       </div>
 
-      <Container className="d-flex justify-content-center align-items-center mt-5">
-        <Row>
-          <div className="offer-head">
-            <h1 className="title ">Special Offers</h1>
-            <p className="sub-title">
-              From historical cities to natural specteculars, come see the best
-              of the world
-            </p>
-          </div>
-        </Row>
-      </Container>
-      <div className="offer-container">
-        <Row>
-          <OfferCard />
-        </Row>
-      </div>
-      <Container className="d-flex justify-content-center align-items-center mt-5">
+      <Container className="d-flex justify-content-center align-items-center mt-5  ">
         <Row>
           <div className="offer-head">
             <h1 className="title ">Popular Destinations</h1>
@@ -55,16 +43,17 @@ function Home() {
           </div>
         </Row>
       </Container>
+
       <Container>
         <Row>
           <PopularCard />
         </Row>
       </Container>
       <section>
-        <div className="whoweare">
+        <div className="whoweare  ">
           <div className="triangle"></div>
-          <img src={sigiriya} alt="" className="img1" />
-          <img src={sigiriya} alt="" className="img2" />
+          <img src={boat} alt="" className="img1" />
+          <img src={group} alt="" className="img2" />
           <div className="sec">
             <h1>Who are we?</h1>
             <p>
@@ -94,9 +83,9 @@ function Home() {
         </div>
       </section>
       <section>
-        <div className="offercard-sec">
+        <div className="offercard-sec  ">
           <div className="div-img1">
-            <img src={sigiriya} alt="" className="offer-img1" />
+            <img src={img2} alt="" className="offer-img1" />
             <div className="div-img1-body">
               <h2 className="offer-title">Plan Your Next Trip With Us</h2>
               <p>
@@ -107,7 +96,7 @@ function Home() {
             </div>
           </div>
           <div className="div-img2">
-            <img src={sigiriya} alt="" className="offer-img2" />
+            <img src={img1} alt="" className="offer-img2" />
             <div className="div-img2-body">
               <h2 className="offer-title">Enjoy Upto 50% Discounts</h2>
               <p>
@@ -119,7 +108,7 @@ function Home() {
         </div>
       </section>
       <section>
-        <div className="testtimonial-container">
+        <div className="testtimonial-container  ">
           <Row>
             <Col lg="12">
               <h1 className="test-title">See what our clients say</h1>
